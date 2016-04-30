@@ -1,6 +1,8 @@
 dnvm upgrade
 dnu restore
 
+pwd
+
 cd ./IDockerProcess/
 dnu build --configuration Release
 dnu pack --configuration Release
