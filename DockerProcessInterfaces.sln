@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D5AF1050-F7FB-47E7-B414-8C510FE26126}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IDockerProcess", "src\IDockerProcess\IDockerProcess.xproj", "{CBA13A8C-EC27-4E89-B048-6A89C08CA4E4}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IDockerMachineProcess", "src\IDockerMachineProcess\IDockerMachineProcess.xproj", "{4A17BF42-944C-4C9B-81B9-1DE004C51B16}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IDockerComposeProcess", "src\IDockerComposeProcess\IDockerComposeProcess.xproj", "{1649A18D-B402-43D2-B04A-C6AB73E4EF6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBA13A8C-EC27-4E89-B048-6A89C08CA4E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA13A8C-EC27-4E89-B048-6A89C08CA4E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA13A8C-EC27-4E89-B048-6A89C08CA4E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA13A8C-EC27-4E89-B048-6A89C08CA4E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A17BF42-944C-4C9B-81B9-1DE004C51B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A17BF42-944C-4C9B-81B9-1DE004C51B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A17BF42-944C-4C9B-81B9-1DE004C51B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A17BF42-944C-4C9B-81B9-1DE004C51B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1649A18D-B402-43D2-B04A-C6AB73E4EF6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1649A18D-B402-43D2-B04A-C6AB73E4EF6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1649A18D-B402-43D2-B04A-C6AB73E4EF6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1649A18D-B402-43D2-B04A-C6AB73E4EF6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CBA13A8C-EC27-4E89-B048-6A89C08CA4E4} = {D5AF1050-F7FB-47E7-B414-8C510FE26126}
+		{4A17BF42-944C-4C9B-81B9-1DE004C51B16} = {D5AF1050-F7FB-47E7-B414-8C510FE26126}
+		{1649A18D-B402-43D2-B04A-C6AB73E4EF6A} = {D5AF1050-F7FB-47E7-B414-8C510FE26126}
+	EndGlobalSection
+EndGlobal
