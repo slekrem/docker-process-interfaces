@@ -4,7 +4,7 @@ dnu restore
 pwd
 ls
 
-cd ./IDockerProcess/
+cd src/IDockerProcess/
 dnu build --configuration Release
 dnu pack --configuration Release
 
