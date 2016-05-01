@@ -25,7 +25,7 @@
 
         IDockerProcesseResult History(IDockerProcesseModel dockerProcesseModel);
 
-        IDockerProcesseResult Images(IDockerProcesseModel dockerProcesseModel);
+        IDockerProcessImagesResult Images(IDockerProcesseModel dockerProcesseModel);
 
         IDockerProcesseResult Import(IDockerProcesseModel dockerProcesseModel);
 
