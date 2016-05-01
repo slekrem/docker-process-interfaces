@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <package >
   <metadata>
-    <id>IDockerProcess</id>
+    <id>IDockerComposeProcess</id>
     <version>1.0.0</version>
     <authors>stme</authors>
     <owners>stme</owners>
