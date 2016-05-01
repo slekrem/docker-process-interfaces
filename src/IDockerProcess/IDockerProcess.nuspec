@@ -5,7 +5,7 @@
     <version>1.0.0</version>
     <authors>Stefan Merkel</authors>
     <owners>Stefan Merkel</owners>
-    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>IDockerProcess</description>
     <releaseNotes>IDockerProcess</releaseNotes>
     <copyright>Copyright @ Stefan Merkel 2016</copyright>
