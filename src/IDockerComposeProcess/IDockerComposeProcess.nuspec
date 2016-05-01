@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>IDockerComposeProcess</id>
-    <version>1.0.0</version>
+    <version>$version$</version>
     <authors>stme</authors>
     <owners>stme</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
