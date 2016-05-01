@@ -1,6 +1,6 @@
 namespace com.smerkel.IDockerProcess.Results
 {
-    public interface IDockerProcessImagesResult
+    public interface IDockerProcessImagesResult : IDockerProcesseResult
     {
         string Repository { get; }
         

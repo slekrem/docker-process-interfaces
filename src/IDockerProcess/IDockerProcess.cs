@@ -1,8 +1,8 @@
-﻿namespace IDockerProcess
+﻿namespace com.smerkel.IDockerProcess
 {
-    using Results;
     using Models;
-
+    using Results;
+    
     public interface IDockerProcess
     {
         IDockerProcesseResult Attach(IDockerProcesseModel dockerProcesseModel);

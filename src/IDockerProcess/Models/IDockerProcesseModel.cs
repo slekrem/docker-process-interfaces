@@ -1,4 +1,4 @@
-﻿namespace IDockerProcess.Models
+﻿namespace com.smerkel.IDockerProcess.Models
 {
     public interface IDockerProcesseModel
     {
