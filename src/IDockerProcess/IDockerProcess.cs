@@ -1,8 +1,9 @@
 ﻿namespace com.smerkel.IDockerProcess
 {
+    using System.Collections.Generic;
     using Models;
     using Results;
-    
+
     public interface IDockerProcess
     {
         IDockerProcesseResult Attach(IDockerProcesseModel dockerProcesseModel);
@@ -25,7 +26,7 @@
 
         IDockerProcesseResult History(IDockerProcesseModel dockerProcesseModel);
 
-        IDockerProcessImagesResult Images(IDockerProcesseModel dockerProcesseModel);
+        IEnumerable<IDockerProcessImagesResult> Images(IDockerProcesseModel dockerProcesseModel);
 
         IDockerProcesseResult Import(IDockerProcesseModel dockerProcesseModel);
 
